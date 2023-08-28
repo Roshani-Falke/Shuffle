@@ -1,0 +1,42 @@
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    width: 100px; 
+    margin: 20px auto;
+  }
+  
+  .room {
+    border: 2px solid #181717;
+    padding: 10px;
+    background-color: rgb(197, 197, 211);
+    width: 100px;
+    
+  }
+  
+  .student {
+    margin: 5px;
+    background-color: white;
+    padding: 5px;
+    font-size: 12px;
+    transition: transform 0.5s, background-color 0.5s;
+  }
+  
+  .shuffle-button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    color: white;
+    display:inline-block;
+    padding: 14px 25px;
+    
+  }
+  
+
+  
+  body{
+    background-color: rgb(240, 224, 237);
+  }
+  
+  
